@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<link href="../Content/bootstrap-rtl.css" rel="stylesheet" />
+	<link href="../Content/mystyle.css" rel="stylesheet" />
+	<link href="../data_table/media/css/jquery.dataTables.css" rel="stylesheet" />
+	<link rel="stylesheet" type="text/css" href="../resources/syntax/shCore.css">
+	<link rel="stylesheet" type="text/css" href="../resources/demo.css">
+	<style type="text/css" class="init">
+	</style>
+	<script src="../data_table/media/js/jquery.js"></script>
+	<script src="../data_table/media/js/jquery.dataTables.js"></script>
+	<script src="../data_table/resources/syntax/shCore.js"></script>
+	<script src="../data_table/resources/demo.js"></script>
+
+	<script type="text/javascript" language="javascript" class="init">
+		$(document).ready(function () {
+			$('#example').DataTable({
+				"language": {
+					"url": "../data_table/Persian.json"
+				}
+			});
+		});
+	</script>
+
+</head>
+<body class="dt-example">
+	<div class="container">
+		<section>
+			
+			<div class="demo-html"></div>
+			<table id="example" class="display" style="width:100%">
+				<thead>
+					<tr>
+						<th>اسم</th>
+						<th>سمت</th>
+
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td>تایگر</td>
+						<td>معمار سیستم</td>
+
+					</tr>
+					<tr>
+						<td>گرت</td>
+						<td>حسابدار</td>
+
+					</tr>
+
+				</tbody>
+				<tfoot>
+					<tr>
+						<th>اسم</th>
+						<th>سمت</th>
+
+					</tr>
+				</tfoot>
+			</table>
+		</section>
+	</div>
+	
+</body>
+</html>

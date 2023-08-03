@@ -1,0 +1,519 @@
+﻿@font-face {
+	font-family: 'BYekan';
+	src: url(../fonts/BYekan.eot);
+	src: url(../fonts/BYekan.eot?#iefix) format("embedded-opentype"), url(../fonts/BYekan.woff) format("woff"), url(../fonts/BYekan.ttf) format("truetype");
+	font-weight: bold;
+	
+}
+
+@font-face {
+	font-family: 'Yekan';
+	src: url(../fonts/Yekan.eot);
+	src: url(../fonts/Yekan.eot?#iefix) format("embedded-opentype"), url(../fonts/Yekan.woff) format("woff"), url(../fonts/Yekan.ttf) format("truetype"), url(../fonts/Yekan.svg#Yekan) format("svg");
+	font-weight: bold;
+	
+}
+
+html {
+  font-family: BYekan,Yekan;
+}
+
+body {
+  font-family: BYekan,Yekan;
+  background-color: #F1F2F7;
+  font-size:14px;
+}
+
+.form-control {
+    height: 32px;
+    padding: 2px 12px;
+    font-size:12px;
+    }
+input, button, select, textarea {
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+}
+
+.container > .navbar-header,
+.container > .navbar-collapse {
+  margin-right: -15px;
+  margin-left: -15px;
+  padding:0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6 {
+  font-family: BYekan,Yekan;
+}
+h2, .h2 {
+    font-size: 28px;
+}
+
+.navbar-inverse {
+  background-color: #062E5D;
+}
+
+.navbar-inverse .navbar-nav > li > a:hover,
+.navbar-inverse .navbar-nav > li > a:focus {
+  background-color: #19822d;
+}
+
+hr {
+  border-top: 1px solid #ddd;
+}
+
+
+
+.jumbotron h1 {font-size:50px;}
+.lead {
+    font-size: 20px;
+    padding-top:25px;
+}
+
+.navbar-inverse .navbar-nav > li > a {
+    color: #ffffff;
+}
+
+.navbar-brand {
+  float: left;
+  padding: 15px 15px;
+  font-size: 17px;
+  margin:0;
+  
+}
+
+.navbar-inverse .navbar-brand {
+  color: #DF931B;
+}
+
+
+
+.logo{
+    float:right;
+    margin-top: 6px;
+
+}
+.box-start{
+    border-radius:3px;
+    background-color:#e66454;
+   padding: 15px 15px 0 15px;
+    text-align:center;
+    color:#ffffff;
+    height: 143px;
+    line-height: 30px;
+
+}
+.box-solution {
+    background-color: #5cb85c;
+    border-radius: 3px;
+    color: #ffffff;
+    height: 143px;
+    line-height: 30px;
+    padding: 15px 15px 0 15px;
+    text-align: center;
+}
+.box-result{
+    border-radius:3px;
+    background-color:#F37934;
+    padding: 15px 10px 0 10px;
+    text-align:center;
+    color:#ffffff;
+    line-height: 30px;
+
+}
+
+.footer{
+    text-align:center;
+    font-family:Tahoma;
+    font-size:12px;
+    line-height: 13px;
+}
+
+/*********************************  Login  *********************************************/
+
+.row_login {
+  padding:20px;
+  background:#fff;
+  border:1px solid rgba(0, 0, 0, 0.1);
+  max-width: 720px;
+  margin: 5% auto auto;
+  background-image: url("../Images/login-bg.jpg");
+  background-repeat: no-repeat;
+  background-position: left bottom;
+}
+
+.row_manage {
+  padding:20px;
+  background:#fff;
+  border:1px solid rgba(0, 0, 0, 0.1);
+  max-width: 720px;
+  margin: 10% auto auto;
+  background-image: url("../Images/manage.jpg");
+  background-repeat: no-repeat;
+  background-position: left ;
+}
+
+.register {
+    font-family: Yekan;
+    font-weight: bold;
+}
+
+
+input[type=text], input[type=password]  {
+
+    -moz-appearance: none;
+    background: #fff none repeat scroll 0 0;
+    border-radius: 4px;
+    border-style: solid;
+    border-width: 1px;
+    box-sizing: border-box;
+    color: #404040;
+    display: block;
+    height: 29px;
+    outline: medium none;
+    padding: 6px 10px;
+    width: 100%;
+    font-family:Tahoma;
+    font-size:12px;
+}
+
+
+button,
+html input[type="button"],
+input[type="reset"],
+input[type="submit"] {
+    cursor: pointer;
+    -webkit-appearance: button;
+    /*width: 100%;*/
+    background-color: #1E73BE;
+    color: white;
+    padding: 0 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    height:35px;
+}
+
+button,
+html input[type="button"],
+input[type="reset"],
+input[type="submit"]:hover {
+    background-color: #165094;
+}
+
+.login-title{
+    font-family:Yekan;
+    color:#000000;
+    padding-bottom:25px;
+    font-weight:bold;
+    font-size: 21px;
+    
+}
+
+.login-lable{
+
+    Width:350px;
+    background:#ffffff;
+    font-family:yekan;
+    Font-Size:10pt;
+}
+
+
+label{
+
+    color:#000;
+    margin:10px;
+    font-size:13px;
+
+}
+
+/**********************************  Register  ***************************************/
+
+.row_register {
+  padding:20px;
+  background:#fff;
+  border:1px solid rgba(0, 0, 0, 0.1);
+  max-width: 60%;
+  margin:2% auto auto;
+  background-image: url("../Images/register-bg.jpg");
+  background-repeat: no-repeat;
+  background-position: left bottom;
+}
+
+/**************************************   Menu   ************************************/
+
+.dropdown-menu {
+  background-color: #19822d;
+  right: -4px;
+  min-width: 230px;
+}
+
+.btn-info {
+   background-color: #165094;
+   border:none;
+   color: #fff;
+   border-radius: 0;
+}
+
+.menu-bgcolor{background:#19822d;margin-bottom:0;}
+
+.btn-info:hover,
+.btn-info:focus,
+.btn-info:active,
+.btn-info.active,
+.open .dropdown-toggle.btn-info {
+  color: #ffffff;
+  background-color: #19822d;
+}
+
+
+.dropdown-menu > li > a {
+    
+    color: #ffffff;
+    
+}
+
+.dropdown-menu > li > a:hover,
+.dropdown-menu > li > a:focus {
+  color: #ffffff;
+  background-color: #156d26;
+}
+
+.dropdown-menu > .active > a,
+.dropdown-menu > .active > a:hover,
+.dropdown-menu > .active > a:focus {
+  color: #ffffff;
+  background-color: #156d26;
+}
+
+
+
+
+#datepicker
+        {
+            z-index: 1;
+            left: 10px;
+            /*top: 89px;*/
+            position: relative;
+            height: 63px;
+            width: 2515px;
+        }
+.overlay
+        {
+          position: fixed;
+          z-index: 9999999998;
+          top: 0px;
+          left: 0px;
+          right: 0px;
+          bottom: 0px;
+            background-color: #aaa;
+            filter: alpha(opacity=80);
+            opacity: 0.8;
+        }
+        .overlayContent
+        {
+          z-index: 9999999999;
+          margin: 250px auto;
+          width: 80px;
+          height: 80px;
+        }
+        .overlayContent h2
+        {
+            font-size: 18px;
+            font-weight: bold;
+            color: #000;
+        }
+        .overlayContent img
+        {
+          width: 80px;
+          height: 80px;
+        }
+   
+.bg-color{
+  background:#fff;
+  border:1px solid rgba(0, 0, 0, 0.1);
+  border-radius:3px
+} 
+
+.bg-color-2{
+  background:#fff;
+  border:1px solid rgba(0, 0, 0, 0.1);
+  padding:15px;
+  border-radius: 3px;
+} 
+
+
+.label {
+    border-radius: 0.25em;
+    color: #fff;
+    text-align: center;
+    margin:2px;
+}
+.label-default {
+  background-color: #43413f;
+}
+
+/**********************************************  Panel - Primary   ********************************************/
+
+.btn-primary {
+    background-color: #165094;
+    border-color: #165094;
+    color: #fff;
+}
+
+.btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .open .dropdown-toggle.btn-primary {
+    color: #fff;
+    background-color: #F37934;
+    border-color: #F37934;
+}
+
+.panel-primary {
+  border-color: #ccc;
+  margin:0 10px 20px 10px;
+}
+
+.panel-primary > .panel-heading {
+    background-color: #44B6AE;
+    border-color: #44B6AE;
+    color: #fff;
+    text-align:center;
+    font-weight:bold;
+}
+
+
+.titr3{
+
+BackColor="#336666"; Font-Bold="True"; ForeColor="White";
+}
+
+
+/*************************************************  Panel- Warning   ****************************************/
+
+.panel-warning > .panel-heading {
+  color: #c09853;
+  background-color: #E66454;
+  border-color: #ccc;
+}
+
+.panel-warning {
+  border-color: #ccc;
+}
+
+.panel-warning > .panel-heading {
+  color: #ffffff;
+  text-align:center;
+  font-weight:bold;
+  background-color: #E66454;
+  border-color: #E66454;
+}
+
+
+/*****************************************  Retail search  ************************************/
+
+h3, .h3 {
+    font-size: 19px;
+}
+
+h1, h2, h3 {
+    margin-bottom: 0;
+    margin-top: 0;
+}
+.navbar-default 
+ {
+  padding:30px;
+  background:#fff;
+  border:1px solid rgba(0, 0, 0, 0.1);
+  max-width: 100%;
+  margin: auto;
+}
+
+.glyphicon-chevron-right::before {
+    color: #fff;
+    content: "";
+}
+
+.glyphicon-chevron-left::before {
+    content: "";
+    color: #fff;
+}
+
+/********************************   Business - search    *******************************/
+
+.business-titr-bg {background:#8E44AD;height:37px; text-align:center; color:#fff; border-radius:3px; padding:0 15px 5px 15px; }
+
+
+/**************************************  Panel - Success     *******************************************/
+
+.panel-success > .panel-heading {
+    background-color: #3498DB;
+    border-color: #3498DB;
+    color: #ffffff;
+    text-align:center;
+}
+
+.panel-success > .panel-heading th {
+    border:1px solid #b778d1;
+}
+
+.panel-success {
+    border-color: #cccccc;
+    margin:15px;
+}
+
+
+.thcolor th {border:1px solid #ffffff; text-align:center;}
+.panel-body td {border:1px solid #ffffff; text-align:center;}
+
+
+.panel-info > .panel-heading {
+    background-color: #ccc;
+    border-color: #ccc;
+    color: #000000;
+    text-align:center;
+}
+
+.panel-info {
+  border-color: #ccc;
+}
+
+
+
+/******************   Titr    *****************/
+
+.titr-all{background:#F4B04F;border-right:4px solid #DB9E47;color:#ffffff; padding:0 20px 0 0;  margin:20px 0 0 0;}
+.titr-all-2{background:#44B6AE;border-right:4px solid #3FA8A1;color:#ffffff; padding:0 20px 0 0;  margin:20px 0 0 0;}
+th {
+    text-align: center;
+}
+
+.modalstyle {
+    
+    width: 650px;
+    background: #ffffff;
+    border: 1px solid #c6c1c1;
+    padding: 20px;
+    
+}
+   
+
+a {
+    color: #333;
+    text-decoration: none;
+}
+
+select:invalid ,input:invalid
+{
+    border:2px solid red;
+}
